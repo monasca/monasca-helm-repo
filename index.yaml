@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   grafana:
   - apiVersion: v1
-    created: 2017-02-15T14:26:38.795836465-07:00
+    created: 2017-02-16T13:49:51.018761645-07:00
     description: A Helm chart for running Monasca fork of Grafana
     digest: 9761c146977a334f015e31ad1f0e748a44bcfa4f6184c2cd8e5560a10e157058
     maintainers:
@@ -12,11 +12,11 @@ entries:
     sources:
     - https://github.com/twc-openstack/grafana
     urls:
-    - grafana-0.1.0.tgz
+    - http://monasca.io/monasca-helm-repo/grafana-0.1.0.tgz
     version: 0.1.0
   kafka:
   - apiVersion: v1
-    created: 2017-02-15T14:26:38.796136542-07:00
+    created: 2017-02-16T13:49:51.018997501-07:00
     description: A Helm chart for Kafka in Kubernetes
     digest: ed1d7ee8824fa280d0731c5cd5db648b60e266b335f10bd5b551d4b8e3f53beb
     maintainers:
@@ -26,11 +26,11 @@ entries:
     sources:
     - https://kafka.apache.org/
     urls:
-    - kafka-0.1.0.tgz
+    - http://monasca.io/monasca-helm-repo/kafka-0.1.0.tgz
     version: 0.1.0
   keystone:
   - apiVersion: v1
-    created: 2017-02-15T14:26:38.798831569-07:00
+    created: 2017-02-16T13:49:51.021816115-07:00
     description: A Helm chart for Keystone
     digest: bdcd7952ac4328e8c10cf0c431bde4207942377d5ff6c5c15a28bcd4863c2a8c
     maintainers:
@@ -40,11 +40,11 @@ entries:
     sources:
     - https://github.com/hpcloud-mon/monasca-docker/tree/master/keystone
     urls:
-    - keystone-0.1.0.tgz
+    - http://monasca.io/monasca-helm-repo/keystone-0.1.0.tgz
     version: 0.1.0
   monasca-agent:
   - apiVersion: v1
-    created: 2017-02-15T14:26:38.799091352-07:00
+    created: 2017-02-16T13:49:51.022027078-07:00
     description: A Helm chart for monasca agent in Kubernetes
     digest: c50845e1975476d36bdd5923eb8e4e8df005541bb43e049ca1e8e670f7688343
     maintainers:
@@ -54,11 +54,11 @@ entries:
     sources:
     - https://github.com/openstack/monasca-agent
     urls:
-    - monasca-agent-0.1.0.tgz
+    - http://monasca.io/monasca-helm-repo/monasca-agent-0.1.0.tgz
     version: 0.1.0
   monasca-api:
   - apiVersion: v1
-    created: 2017-02-15T14:26:38.799325154-07:00
+    created: 2017-02-16T13:49:51.022211753-07:00
     description: A Helm chart for monasca api in Kubernetes
     digest: c46ab25306d9a8da2e94181320473583c3ca67d018193b6abb33dfdd8e2153f6
     maintainers:
@@ -68,11 +68,11 @@ entries:
     sources:
     - https://github.com/openstack/monasca-api
     urls:
-    - monasca-api-0.1.0.tgz
+    - http://monasca.io/monasca-helm-repo/monasca-api-0.1.0.tgz
     version: 0.1.0
   monasca-notification:
   - apiVersion: v1
-    created: 2017-02-15T14:26:38.799579343-07:00
+    created: 2017-02-16T13:49:51.022400113-07:00
     description: A Helm chart for monasca notification in Kubernetes
     digest: ccd87ff99b6ecce345f30ed2b376f7d37e0d53603100a68886e1bf9fd5bac2c0
     maintainers:
@@ -82,11 +82,11 @@ entries:
     sources:
     - https://github.com/openstack/monasca-notification
     urls:
-    - monasca-notification-0.1.0.tgz
+    - http://monasca.io/monasca-helm-repo/monasca-notification-0.1.0.tgz
     version: 0.1.0
   monasca-persister:
   - apiVersion: v1
-    created: 2017-02-15T14:26:38.799773616-07:00
+    created: 2017-02-16T13:49:51.022564693-07:00
     description: A Helm chart for monasca persister in Kubernetes
     digest: 97355686382fbaf1ddfa2cfd81b060a55e5b11ca12938f4f44f5a30fa1c59254
     maintainers:
@@ -96,11 +96,11 @@ entries:
     sources:
     - https://github.com/openstack/monasca-persister
     urls:
-    - monasca-persister-0.1.0.tgz
+    - http://monasca.io/monasca-helm-repo/monasca-persister-0.1.0.tgz
     version: 0.1.0
   monasca-thresh:
   - apiVersion: v1
-    created: 2017-02-15T14:26:38.80007993-07:00
+    created: 2017-02-16T13:49:51.022841038-07:00
     description: A Helm chart for Monasca-Thresh running in Kubernetes
     digest: 2af55a164d7a5ca396a1538232880a9811d2a82772ccb66efa385e368a91b0b3
     maintainers:
@@ -110,11 +110,11 @@ entries:
     sources:
     - https://github.com/openstack/monasca-thresh
     urls:
-    - monasca-thresh-0.1.0.tgz
+    - http://monasca.io/monasca-helm-repo/monasca-thresh-0.1.0.tgz
     version: 0.1.0
   zookeeper:
   - apiVersion: v1
-    created: 2017-02-15T14:26:38.800365846-07:00
+    created: 2017-02-16T13:49:51.02301311-07:00
     description: A Helm chart for zookeeper
     digest: e059aa7c4b4719d5b3a5909ff9985285e7a935a51ba5690df7db34338abbad23
     maintainers:
@@ -124,6 +124,6 @@ entries:
     sources:
     - https://zookeeper.apache.org/
     urls:
-    - zookeeper-0.1.0.tgz
+    - http://monasca.io/monasca-helm-repo/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: 2017-02-15T14:26:38.795091437-07:00
+generated: 2017-02-16T13:49:51.018344121-07:00
