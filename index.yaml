@@ -257,6 +257,19 @@ entries:
     version: 0.1.0
   transform:
   - apiVersion: v1
+    created: 2017-02-23T17:12:29.329377166Z
+    description: Transform provides aggregation for monasca metrics
+    digest: d9cdfb87c87455be54280f14ef46763099ba7822dc9ca85cc41a28bd8b937d6a
+    maintainers:
+    - email: david.c.kennedy@hpe.com
+      name: David C Kennedy
+    name: transform
+    sources:
+    - https://github.com/openstack/monasca-transform
+    urls:
+    - http://monasca.io/monasca-helm-repo/transform-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
     created: 2017-02-22T17:46:02.107007762-07:00
     description: Transform provides aggregation for monasca metrics
     digest: fca3ec127368fee54f1a519091318f2b3a44c411b7bd3cd47e9d8151be8215d9
@@ -296,4 +309,4 @@ entries:
     urls:
     - http://monasca.io/monasca-helm-repo/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: 2017-02-22T17:46:02.092481202-07:00
+generated: 2017-02-23T17:12:29.309819984Z
