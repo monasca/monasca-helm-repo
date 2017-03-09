@@ -245,6 +245,17 @@ entries:
     version: 0.1.0
   spark:
   - apiVersion: v1
+    created: 2017-03-09T12:01:15.439318722Z
+    description: Spark cluster chart
+    digest: 4a1aa2e61005d99a2814e315b3c3d133b82fe594c31ac2ce160632c6e895ab65
+    maintainers:
+    - email: david.c.kennedy@hpe.com
+      name: David C Kennedy
+    name: spark
+    urls:
+    - http://monasca.io/monasca-helm-repo/spark-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
     created: 2017-03-07T13:25:40.641349752-07:00
     description: Spark cluster chart
     digest: bcad1a6d4044ec155c447196b201819cc5e467b82fc63494db013e0aa440625c
@@ -310,4 +321,4 @@ entries:
     urls:
     - http://monasca.io/monasca-helm-repo/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: 2017-03-07T13:25:40.614533328-07:00
+generated: 2017-03-09T12:01:15.418326494Z
