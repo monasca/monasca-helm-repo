@@ -282,9 +282,9 @@ entries:
     version: 0.1.0
   transform:
   - apiVersion: v1
-    created: 2017-03-09T12:12:08.803181559Z
+    created: 2017-03-09T14:54:38.119361226Z
     description: Transform provides aggregation for monasca metrics
-    digest: a12da8843780cd137270d28477c892d635e7d2fd29f0144539b12168a93ca6dc
+    digest: a48b7e1b8790e4f4d21d317ffdd45b00496647613aeb3845f4e09ba16984f832
     maintainers:
     - email: david.c.kennedy@hpe.com
       name: David C Kennedy
