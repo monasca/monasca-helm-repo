@@ -1,3 +1,12 @@
 apiVersion: v1
-entries: {}
-generated: 2017-04-04T16:36:49.930260619-06:00
+entries:
+  zookeeper:
+  - apiVersion: v1
+    created: 2017-04-04T16:41:50.210293-06:00
+    description: A Helm chart for Zookeeper
+    digest: 7edaa38b3ba72f0bea0db388b3152370e695ae477e740f0e876a4d8d295ed7ee
+    name: zookeeper
+    urls:
+    - http://monasca.io/monasca-helm-repo/zookeeper-0.1.0.tgz
+    version: 0.1.0
+generated: 2017-04-04T16:41:50.209018-06:00
