@@ -1,12 +1,21 @@
 apiVersion: v1
 entries:
+  kafka:
+  - apiVersion: v1
+    created: 2017-04-04T21:02:49.110127576-06:00
+    description: A Helm chart for Kafka
+    digest: d8e229be1b2181c0819d2d7daff5179f3c08b825a3ea5dc4b4799e503485f831
+    name: kafka
+    urls:
+    - http://monasca.io/monasca-helm-repo/kafka-0.1.0.tgz
+    version: 0.1.0
   zookeeper:
   - apiVersion: v1
-    created: 2017-04-04T21:00:20.867522138-06:00
+    created: 2017-04-04T21:02:49.110548048-06:00
     description: A Helm chart for Zookeeper
     digest: 266ce9180f1100d20c08740721a6d0a3d6f2db4f499e60935a727f91ee3f6f84
     name: zookeeper
     urls:
     - http://monasca.io/monasca-helm-repo/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: 2017-04-04T21:00:20.867090548-06:00
+generated: 2017-04-04T21:02:49.109083074-06:00
