@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   kafka:
   - apiVersion: v1
-    created: 2017-05-11T10:56:26.976244622-06:00
+    created: 2017-05-11T13:56:39.0207337-06:00
     description: A Helm chart for Kafka
     digest: d8e229be1b2181c0819d2d7daff5179f3c08b825a3ea5dc4b4799e503485f831
     name: kafka
@@ -11,7 +11,7 @@ entries:
     version: 0.1.0
   monasca:
   - apiVersion: v1
-    created: 2017-05-11T10:56:26.981856093-06:00
+    created: 2017-05-11T13:56:39.029075148-06:00
     description: A Helm chart for Monasca running in Kubernetes
     digest: 71dd22ce05db65e5e0651f2f7bbadcba9665674fc5aa2e62592fa74efb8764ac
     maintainers:
@@ -24,7 +24,7 @@ entries:
     - http://monasca.io/monasca-helm-repo/monasca-0.1.12.tgz
     version: 0.1.12
   - apiVersion: v1
-    created: 2017-05-11T10:56:26.979794242-06:00
+    created: 2017-05-11T13:56:39.026034079-06:00
     description: A Helm chart for Monasca running in Kubernetes
     digest: d46100a2f8f8feb25b74dbfa80d7a823472a18a2446358ba26b387df57ef75af
     maintainers:
@@ -37,7 +37,7 @@ entries:
     - http://monasca.io/monasca-helm-repo/monasca-0.1.11.tgz
     version: 0.1.11
   - apiVersion: v1
-    created: 2017-05-11T10:56:26.977909766-06:00
+    created: 2017-05-11T13:56:39.023191612-06:00
     description: A Helm chart for Monasca running in Kubernetes
     digest: bb1823a75c061dd39d1caac4c030ca3317aabef60ecb74a78bf2361df4323d73
     maintainers:
@@ -50,7 +50,7 @@ entries:
     - http://monasca.io/monasca-helm-repo/monasca-0.1.10.tgz
     version: 0.1.10
   - apiVersion: v1
-    created: 2017-05-11T10:56:26.983636344-06:00
+    created: 2017-05-11T13:56:39.032135576-06:00
     description: A Helm chart for Monasca running in Kubernetes
     digest: 4c792c2638c7d629611748d489e92e275beb6bcb6d922251a8ce5dbcd7a8fa9e
     maintainers:
@@ -64,7 +64,15 @@ entries:
     version: 0.1.9
   storm:
   - apiVersion: v1
-    created: 2017-05-11T10:56:26.984213947-06:00
+    created: 2017-05-11T13:56:39.034545129-06:00
+    description: Apache Storm configured for Monasca
+    digest: 32b73b230bfabc81d13ebf2d9d3efeacd33085b2729bc39b27a847c682d81412
+    name: storm
+    urls:
+    - http://monasca.io/monasca-helm-repo/storm-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v1
+    created: 2017-05-11T13:56:39.034298299-06:00
     description: Apache Storm configured for Monasca
     digest: 38dc213c878cf78a32594974cd8d6faf979f18526343f03c9aa292ea104985ed
     name: storm
@@ -72,7 +80,7 @@ entries:
     - http://monasca.io/monasca-helm-repo/storm-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: 2017-05-11T10:56:26.984025746-06:00
+    created: 2017-05-11T13:56:39.033827777-06:00
     description: Apache Storm configured for Monasca
     digest: aa4827dabc8310fe7383c0baa91d299541354d1f470d3f6d29a7bee370736730
     name: storm
@@ -80,7 +88,7 @@ entries:
     - http://monasca.io/monasca-helm-repo/storm-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2017-05-11T10:56:26.983832715-06:00
+    created: 2017-05-11T13:56:39.033281234-06:00
     description: Apache Storm configured for Monasca
     digest: d32a623c39d782262cdc920033a1d9b05d99ec15bd696e602a41fc6cd7eb5ecd
     name: storm
@@ -89,11 +97,11 @@ entries:
     version: 0.1.0
   zookeeper:
   - apiVersion: v1
-    created: 2017-05-11T10:56:26.984374081-06:00
+    created: 2017-05-11T13:56:39.034956307-06:00
     description: A Helm chart for Zookeeper
     digest: 266ce9180f1100d20c08740721a6d0a3d6f2db4f499e60935a727f91ee3f6f84
     name: zookeeper
     urls:
     - http://monasca.io/monasca-helm-repo/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: 2017-05-11T10:56:26.975634861-06:00
+generated: 2017-05-11T13:56:39.019873821-06:00
